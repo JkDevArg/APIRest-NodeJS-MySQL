@@ -1,0 +1,23 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Libro 5",
+    "autor": "JCreative",
+    "edicion": 2022
+}
+
+###
+DELETE http://localhost:9000/api/5 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "edicion": 2021
+}
