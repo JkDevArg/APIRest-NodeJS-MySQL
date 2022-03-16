@@ -21,6 +21,11 @@ const opcionesDb = {
 }
 ```
 
+## Iniciar Servidor
+```javascript
+npm run start
+```
+
 ## Hacer pruebas
 ```javascript
 GET http://localhost:9000/api
