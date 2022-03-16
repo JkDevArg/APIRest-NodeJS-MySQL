@@ -51,6 +51,8 @@ PUT http://localhost:9000/api/1 HTTP/1.1
 Content-Type: application/json
 
 {
+    "titulo": "Libro 5",
+    "autor": "JCreative 2",
     "edicion": 2021
 }
 ```
